@@ -1,0 +1,36 @@
+﻿<Window x:Class="CompitoVacanze.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CompitoVacanze"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TabControl HorizontalAlignment="Left" Height="399" Margin="25,10,0,0" VerticalAlignment="Top" Width="746">
+            <TabItem Header="Menu">
+                <Grid Background="#FFE5E5E5">
+                    <Label x:Name="label_nome" Content="Nome:" HorizontalAlignment="Left" Height="32" Margin="10,123,0,0" VerticalAlignment="Top" Width="93"/>
+                    <Label x:Name="label_diametro" Content="Diametro ruota (cm):" HorizontalAlignment="Left" Height="32" Margin="10,242,0,0" VerticalAlignment="Top" Width="131"/>
+                    <Label x:Name="titolo" Content="Bike Trip" HorizontalAlignment="Left" Height="37" Margin="299,10,0,0" VerticalAlignment="Top" Width="123" FontFamily="Showcard Gothic" FontSize="22"/>
+                    <TextBox x:Name="txt_nome" HorizontalAlignment="Left" Height="32" Margin="194,123,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="124"/>
+                    <Button x:Name="btn_avvia" Content="AVVIA" HorizontalAlignment="Left" Height="98" Margin="473,89,0,0" VerticalAlignment="Top" Width="218" Click="btn_avvia_Click"/>
+                    <Button x:Name="btn_termina" Content="TERMINA" HorizontalAlignment="Left" Height="98" Margin="473,220,0,0" VerticalAlignment="Top" Width="218" Click="btn_termina_Click_1"/>
+                    <ComboBox x:Name="cmb_diametro" HorizontalAlignment="Left" Height="22" Margin="194,252,0,0" VerticalAlignment="Top" Width="124"/>
+                    <Label x:Name="avviso" Content="" HorizontalAlignment="Left" Height="38" Margin="45,300,0,0" VerticalAlignment="Top" Width="257"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Visualizza" Margin="0,0,-4,-2">
+                <Grid Background="#FFE5E5E5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="11*"/>
+                        <ColumnDefinition Width="729*"/>
+                    </Grid.ColumnDefinitions>
+                    <Label x:Name="titolo_Copy" Content="CRonologia" HorizontalAlignment="Left" Height="37" Margin="276,10,0,0" VerticalAlignment="Top" Width="155" FontFamily="Showcard Gothic" FontSize="22" Grid.Column="1"/>
+                    <TextBlock x:Name="txt1" HorizontalAlignment="Left" Height="228" Margin="14,68,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="691" Grid.Column="1"/>
+                    <Button x:Name="btn_visualizza" Content="VISUALIZZA" Grid.Column="1" HorizontalAlignment="Left" Height="60" Margin="14,301,0,0" VerticalAlignment="Top" Width="691" Click="btn_visualizza_Click"/>
+                </Grid>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>
