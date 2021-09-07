@@ -1,0 +1,15 @@
+F:\Compito_vacanze_info\CompitoVacanze\CompitoVacanze\obj\Debug\CompitoVacanze.csprojAssemblyReference.cache
+F:\Compito_vacanze_info\CompitoVacanze\CompitoVacanze\obj\Debug\MainWindow.g.cs
+F:\Compito_vacanze_info\CompitoVacanze\CompitoVacanze\obj\Debug\App.g.cs
+F:\Compito_vacanze_info\CompitoVacanze\CompitoVacanze\obj\Debug\CompitoVacanze_MarkupCompile.cache
+F:\Compito_vacanze_info\CompitoVacanze\CompitoVacanze\obj\Debug\CompitoVacanze_MarkupCompile.lref
+F:\Compito_vacanze_info\CompitoVacanze\CompitoVacanze\bin\Debug\CompitoVacanze.exe.config
+F:\Compito_vacanze_info\CompitoVacanze\CompitoVacanze\bin\Debug\CompitoVacanze.exe
+F:\Compito_vacanze_info\CompitoVacanze\CompitoVacanze\bin\Debug\CompitoVacanze.pdb
+F:\Compito_vacanze_info\CompitoVacanze\CompitoVacanze\obj\Debug\MainWindow.baml
+F:\Compito_vacanze_info\CompitoVacanze\CompitoVacanze\obj\Debug\CompitoVacanze.g.resources
+F:\Compito_vacanze_info\CompitoVacanze\CompitoVacanze\obj\Debug\CompitoVacanze.Properties.Resources.resources
+F:\Compito_vacanze_info\CompitoVacanze\CompitoVacanze\obj\Debug\CompitoVacanze.csproj.GenerateResource.cache
+F:\Compito_vacanze_info\CompitoVacanze\CompitoVacanze\obj\Debug\CompitoVacanze.csproj.CoreCompileInputs.cache
+F:\Compito_vacanze_info\CompitoVacanze\CompitoVacanze\obj\Debug\CompitoVacanze.exe
+F:\Compito_vacanze_info\CompitoVacanze\CompitoVacanze\obj\Debug\CompitoVacanze.pdb
